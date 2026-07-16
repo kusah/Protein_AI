@@ -1,0 +1,90 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment Variables
+.env
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# SQLite
+*.sqlite3
+*.db
+
+# Reports
+reports/*.pdf
+reports/*.png
+reports/*.jpg
+
+# Data Files
+data/pdb/
+data/predicted/
+data/fasta/*.fasta
+data/fasta/*.fa
+data/fasta/*.faa
+
+# Model Files
+models/
+*.pkl
+*.pt
+*.pth
+*.ckpt
+
+# Temporary Files
+temp/
+tmp/
+*.tmp
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Coverage
+.coverage
+htmlcov/
+
+# Pytest
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
